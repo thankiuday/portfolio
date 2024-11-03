@@ -5,7 +5,8 @@ import image3 from '../assets/projects/project-3.png'
 import image4 from '../assets/projects/project-4.png'
 import image5 from '../assets/projects/project-5.png'
 const projects = [
-    {      title: "Real-Time Chat Application",
+    {
+      title: "Real-Time Chat Application",
       image: "../src/assets/projects/project-1.png", // Replace with the actual path or URL of the image
       description: "A chat application that allows real-time communication between users. It features user authentication, and live messaging using Socket.io for seamless interactions.",
       technologies: ["MongoDB", "Express.js", "React", "Node.js", "Socket.io", "Bootstrap"]

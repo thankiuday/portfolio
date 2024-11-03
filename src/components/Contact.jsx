@@ -20,7 +20,9 @@ const Contact = () => {
             whileInView={{opacity:1,x:0}}
             initial={{opacity:0,x:-100}}
             transition={{duration:1}}
-            href="#" className='my-4 border-b'>udaythanki2@gmail.com</motion.a>
+            // generate a link to direct gmail to udaythanki2@gmail.com
+            
+            href="mailto:udaythanki2@gmail.com" className='my-4 border-b'>udaythanki2@gmail.com</motion.a>
         </div>
     </div>
   )
